@@ -1,0 +1,15 @@
+class Car1 
+{
+	public static void main(String[] args) 
+	{
+		int	Car_cost=5000000;
+		String	Car_name="BMW X1";
+		String	Car_type="Petrol";
+		
+		System.out.println(Car_cost);
+		System.out.println(Car_name);
+		System.out.println(Car_type);
+	}
+}
+
+	
