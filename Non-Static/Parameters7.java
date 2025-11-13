@@ -1,0 +1,11 @@
+class Parameters7 
+{
+	void	area(int	r,double	radian){
+		double	res=0.5*(r*r)*radian;
+		System.out.println(res);
+	}
+	public static void main(String[] args) 
+	{
+		new	Parameters7().area(10,10);
+	}
+}

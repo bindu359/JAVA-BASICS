@@ -1,0 +1,12 @@
+class Parameters4 
+{
+	void	area(int	r){
+		final	double	pi=3.142;
+		int	res=pi*r*r;
+		System.out.println(res);
+	}
+	public static void main(String[] args) 
+	{
+		new	Parameters4().area(10);
+	}
+}
