@@ -1,0 +1,13 @@
+class Refer6 
+{
+	void	area(int	r){
+		final	double	pi=3.142;
+		double	res=pi*r*r;
+		System.out.println(res);
+	}
+	public static void main(String[] args) 
+	{
+		Refer6	r6=new	Refer6();
+		r6.area(5);
+	}
+}

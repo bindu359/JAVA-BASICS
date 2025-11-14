@@ -1,0 +1,13 @@
+class Refer5 
+{
+	void	area(int a,int b){
+		int	h=10;
+		double	res=0.5*(a+b)*h;
+		System.out.println(res);
+	}
+	public static void main(String[] args) 
+	{
+		Refer5	r5=new	Refer5();
+		r5.area(10,10);
+	}
+}

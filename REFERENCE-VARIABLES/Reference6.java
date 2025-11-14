@@ -1,0 +1,15 @@
+class Reference6 
+{
+	double	area(){
+		final	double	pi=3.142;
+		int	r=5;
+		double	res=pi*r*r;
+		return	res;
+	}
+	public static void main(String[] args) 
+	{
+		Reference6	r6=new	Reference6();
+		double	x=r6.area();
+		System.out.println(x);
+	}
+}
