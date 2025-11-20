@@ -1,0 +1,24 @@
+class	Amount{
+int	avail_balance=5000;
+public	static	void	main(String[]	args){
+Amount	a1=new	Amount();
+Gpay.avail(a1);
+Phonepe.avail(a1);
+Paytm.avail(a1);
+}
+}
+class	Gpay{
+static	void	avail(Amount	a2){
+System.out.println(a2.avail_balance);
+}
+}
+class	Phonepe{
+static	void	avail(Amount	a3){
+System.out.println(a3.avail_balance);
+}
+}
+class	Paytm{
+static	void	avail(Amount	a4){
+System.out.println(a4.avail_balance);
+}
+}

@@ -1,0 +1,24 @@
+class	Demo{
+int	a=20;
+public	static	void	main(String[]	args){
+Demo	d1=new	Demo();
+Sample.disp(d1);
+Test.disp(d1);
+Tester.disp(d1);
+}
+}
+class	Sample{
+static	void	disp(Demo	d2){
+System.out.println(d2.a);
+}
+}
+class	Test{
+static	void	disp(Demo	d3){
+System.out.println(d3.a);
+}
+}
+class	Tester{
+static	void	disp(Demo	d4){
+System.out.println(d4.a);
+}
+}

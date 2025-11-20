@@ -1,0 +1,24 @@
+class	Mcd{
+int	burger_qty=50;
+public	static	void	main(String[]	args){
+Mcd	m1=new	Mcd();
+Zomato.Qty(m1);
+Swiggy.Qty(m1);
+Zepto.Qty(m1);
+}
+}
+class	Zomato{
+static	void	Qty(Mcd	m2){
+System.out.println("Burger	available	in	Zomato	"+m2.burger_qty);
+}
+}
+class	Swiggy{
+static	void	Qty(Mcd	m3){
+System.out.println("Burger	available	in	Swiggy	"+m3.burger_qty);
+}
+}
+class	Zepto{
+static	void	Qty(Mcd	m4){
+System.out.println("Burger	available	in	Zepto	"+m4.burger_qty);
+}
+}
