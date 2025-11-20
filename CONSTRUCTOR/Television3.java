@@ -1,0 +1,18 @@
+class  Television3
+{
+		int tv_cost;
+		String tv_brand;
+		String tv_type;
+		Television3(int	a,String	b,String	c){
+			tv_cost=a;
+			tv_brand=b;
+			tv_type=c;
+		}	
+	public static void main(String[] args) 
+	{
+		Television3	t3=new	Television3(499,"Samsung","Smart TV");
+		System.out.println(t3.tv_cost);
+		System.out.println(t3.tv_brand);
+		System.out.println(t3.tv_type);
+	}
+}

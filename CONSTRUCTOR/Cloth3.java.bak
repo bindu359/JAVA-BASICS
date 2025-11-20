@@ -1,0 +1,18 @@
+class Cloth3 
+{
+		String cloth_color;
+		int cloth_cost;
+		String cloth_size;
+		Cloth3(String	a,String	b,int	c){
+		cloth_color=a;
+		cloth_cost=b;
+		cloth_size=c;
+		}
+	public static void main(String[] args) 
+	{
+	Cloth3	c3=new	Cloth3("Red",2000,"L");
+		System.out.println(c3.cloth_color);
+		System.out.println(c3.cloth_cost);
+		System.out.println(c3.cloth_size);
+	}
+}
