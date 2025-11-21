@@ -1,0 +1,17 @@
+public  class Facebook
+{
+public static void main(String msg)
+{
+System.out.println("Sending Message");
+}
+public static void main(int request)
+{
+System.out.println("Sending Request");
+}
+public static void main(String [] args)
+{
+main("Hello");
+main(10);
+}
+}
+

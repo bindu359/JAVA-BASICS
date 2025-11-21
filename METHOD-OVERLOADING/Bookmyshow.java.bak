@@ -1,0 +1,17 @@
+public  class Bookmyshow
+{
+public static void main(String movie)
+{
+System.out.println("Selecting Movie");
+}
+public static void main(int Amount)
+{
+System.out.println("Sending Amount");
+}
+public static void main(String [] args)
+{
+main("8	Vasanthalu");
+main(300);
+}
+}
+
