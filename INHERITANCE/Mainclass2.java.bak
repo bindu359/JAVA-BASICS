@@ -1,0 +1,19 @@
+class	Sample2{
+int	y=20;
+}
+class	Demo2	extends	Sample2{
+void	cool(){
+System.out.println("Heiiiii");
+}
+}
+class	Tester2	extends	Demo2{
+	int	z=10;
+}
+class	Mainclass2{
+public	static	void	main(String[]	args){
+Demo2	d2=new	Demo2();
+d2.cool();
+System.out.println(d2.y);
+System.out.println(d2.z);
+}
+}

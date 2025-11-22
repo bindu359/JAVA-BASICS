@@ -1,0 +1,21 @@
+class	Sample3{
+int	a=50;
+}
+class	Demo3	extends	Sample3{
+void	test(){
+System.out.println("Hey	i	am	Demoooo");
+}}
+class	Tester3{
+void	po(){
+	System.out.println("HEllloooooootesterrrrr");
+}
+}
+class	Mainclass3{
+public	static	void	main(String[]	args){
+	Demo3	d3=new					Demo3();
+	Tester3	t3=new	Tester3();
+	System.out.println(d3.a);
+	d3.test();
+	t3.po();
+}
+}
